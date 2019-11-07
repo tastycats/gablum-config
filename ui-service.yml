@@ -1,2 +1,14 @@
 server:
-  port: 4000
+  port: 6000
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      #      defaultZone: http://localhost:8000/eureka
+      defaultZone: ${REGISTRY_URI}
+
+spring:
+  application:
+    name: "ui-service"
