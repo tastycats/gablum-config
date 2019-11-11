@@ -6,4 +6,4 @@ eureka:
     fetchRegistry: false
 
 server:
-  port: 8001
+  port: ${DISCOVERY_PORT}

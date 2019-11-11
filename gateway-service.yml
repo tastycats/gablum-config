@@ -6,7 +6,7 @@ eureka:
       defaultZone: ${REGISTRY_URI}
 
 server:
-  port: 4000
+  port: ${GATEWAY_PORT}
 
 spring:
   application:
