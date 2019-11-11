@@ -14,9 +14,12 @@ spring:
 
 zuul:
   routes:
-    root:
-      path: /**
+    users:
+      path: /users
       serviceId: "user-api-service"
+    ui:
+      path: /
+      serviceId: "ui-service"
 
 management:
   endpoints:
