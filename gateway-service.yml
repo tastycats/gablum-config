@@ -14,8 +14,8 @@ spring:
 
 zuul:
   routes:
-    user-api-service: /api/**
-    ui-service: /**
+    user-service: /api/**
+    webapp-service: /**
 
 management:
   endpoints:
