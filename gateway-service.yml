@@ -17,6 +17,7 @@ zuul:
     user-service: /api/users/**
     proposals-service: /api/proposals/**
     scheduler-service: /api/schedules/**
+    contracts-service: /api/contracts/**
     webapp-service: /**
 
 management:
