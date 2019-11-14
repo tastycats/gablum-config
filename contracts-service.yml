@@ -8,7 +8,7 @@ eureka:
       defaultZone: ${REGISTRY_URI}
 
 server:
-  port: ${SERVER_PORT}
+  port: ${APP_SERVER_PORT}
 
 spring:
   application:
