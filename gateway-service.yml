@@ -16,6 +16,7 @@ zuul:
   routes:
     user-service: /api/users/**
     proposals-service: /api/proposals/**
+    scheduler-service: /api/schedules/**
     webapp-service: /**
 
 management:
