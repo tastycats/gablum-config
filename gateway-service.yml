@@ -14,7 +14,8 @@ spring:
 
 zuul:
   routes:
-    user-service: /api/**
+    user-service: /api/users/**
+    proposals-service: /api/proposals/**
     webapp-service: /**
 
 management:
