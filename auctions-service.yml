@@ -11,3 +11,6 @@ eureka:
 spring:
   application:
     name: "auctions-service"
+  data:
+    mongodb:
+      uri: ${AUCTIONS_DB_URI}
